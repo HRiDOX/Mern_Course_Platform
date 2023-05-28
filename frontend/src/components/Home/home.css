@@ -15,6 +15,31 @@
     
 }
 
-.brandsBanner{
+.brandsBanner > svg {
+    color: wheat;
+    font-size: 3rem;  
+    transition: color 0.5s;  
+}
+.brandsBanner > svg:hover{
+    color: rgb(255,221,0)
+}
+.container2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 video{
+    border: 1px solid rgba(0,0,0,0.18);
+    width: 60%;
+    border-radius: 5px;
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    .container2 video{
+        width: 100%;
+}
     
 }
